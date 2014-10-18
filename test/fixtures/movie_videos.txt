@@ -12,4 +12,4 @@ Age: 1000
 Via: 1.1 varnish
 X-Cache: HIT
 
-{"id": 550,"quicktime": [],"youtube": [{"name": "Trailer 1","size": "HD","source": "SUXWAEX2jlg"}]}
+{"id": 550,"results": [{"id": "533ec654c3a36854480003eb","iso_639_1": "en","key": "SUXWAEX2jlg","name": "Trailer 1","site": "YouTube","size": 720,"type": "Trailer"}]}
