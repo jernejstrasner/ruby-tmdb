@@ -16,10 +16,10 @@ begin
     gemspec.authors = ["Irio Irineu Musskopf Junior", "Aaron Gough"]
     gemspec.rdoc_options << '--line-numbers' << '--inline-source'
     gemspec.extra_rdoc_files = ['README.rdoc', 'MIT-LICENSE']
-    gemspec.add_dependency( "deepopenstruct", ">= 0.1.2")
-    gemspec.add_dependency( "json")
-    gemspec.add_dependency "addressable"
-    gemspec.add_development_dependency "webmock"
+    gemspec.add_dependency("deepopenstruct", ">= 0.1.2")
+    gemspec.add_dependency("json")
+    gemspec.add_dependency("addressable")
+    gemspec.add_development_dependency("webmock")
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: gem install jeweler"

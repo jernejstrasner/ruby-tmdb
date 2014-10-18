@@ -59,7 +59,7 @@ class TmdbMovie
         raw_data['releases']  = @releases_data['countries']
         raw_data['cast']      = @cast_data['cast']
         raw_data['crew']      = @cast_data['crew']
-        raw_data['videos']    = @videos_data['results']
+        raw_data['videos']    = @videos_data
       rescue => e
         raise ArgumentError, "Unable to fetch expanded infos for Movie ID: '#{movie_id}'" if @images_data.nil? || @releases_data.nil? || @cast_data.nil? || @videos_data.nil?
       end
